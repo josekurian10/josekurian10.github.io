@@ -12,11 +12,11 @@
         }
 
         // Add 'Careers' link
-        var navbarList = document.querySelector('.navbar-nav');
+        let navbarList = document.querySelector('.navbar-nav');
         if (navbarList) {
-            var careersLi = document.createElement('li');
+            let careersLi = document.createElement('li');
             careersLi.className = 'nav-item';
-            var careersLink = document.createElement('a');
+            let careersLink = document.createElement('a');
             careersLink.className = 'nav-link';
             careersLink.href = 'careers.html'; // Point this to your actual Careers page URL
             careersLink.textContent = 'Careers';
