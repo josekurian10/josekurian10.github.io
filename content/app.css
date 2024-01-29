@@ -1,5 +1,5 @@
 /* Resetting default styles for body and html elements */
-Header {
+body html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
