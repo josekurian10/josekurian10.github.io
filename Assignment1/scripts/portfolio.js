@@ -11,19 +11,19 @@
 
         const projects = [
             { title: 'Web Development Portfolio', description: 'A showcase of my web development projects.' +
-                    ' Includes responsive web designs and interactive features.', imageUrl: '../images/img1.png' },
+                    ' Includes responsive web designs and interactive features.', imageUrl: './images/img1.png' },
 
             { title: 'Mobile App Design', description: 'Designed a mobile application with a clean and user-friendly' +
-                    ' interface. Implemented intuitive navigation and sleek animations.', imageUrl: '../images/img2.jpg' },
+                    ' interface. Implemented intuitive navigation and sleek animations.', imageUrl: './images/img2.jpg' },
 
             { title: 'E-commerce Website', description: 'Developed an e-commerce platform with secure payment gateways,' +
-                    ' product catalog, and user account functionality.', imageUrl: '../images/img3.jpg' },
+                    ' product catalog, and user account functionality.', imageUrl: './images/img3.jpg' },
 
             { title: 'Data Visualization Dashboard', description: 'Created a data visualization dashboard to present ' +
-                    'complex data in an easily understandable format using charts and graphs.', imageUrl: '../images/img4.jpg' },
+                    'complex data in an easily understandable format using charts and graphs.', imageUrl: './images/img4.jpg' },
 
             { title: 'Blogging Platform', description: 'Built a feature-rich blogging platform with user authentication,' +
-                    ' comment system, and a responsive layout for optimal viewing on various devices.', imageUrl: '../images/img5.jpg' },
+                    ' comment system, and a responsive layout for optimal viewing on various devices.', imageUrl: './images/img5.jpg' },
 
 
 
