@@ -35,16 +35,16 @@
         console.log("App Started...");
 
         switch(document.title){
-            case "Home":
+            case "Harmony Hub":
                 DisplayHomePage();
                 break;
-            case "About Us":
+            case "Team":
                 DisplayAboutPage();
                 break;
-            case "Contact Us":
+            case "Blog":
                 DisplayContactPage();
                 break;
-            case "Products":
+            case "Portfolio":
                 DisplayProductPage();
                 break;
             case "Services":
