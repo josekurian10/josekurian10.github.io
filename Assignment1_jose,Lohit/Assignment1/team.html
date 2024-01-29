@@ -1,0 +1,175 @@
+<!----
+Author     : Jose Kurian, Lohit Binu Philip
+Student ID : 100891948, 100894625
+Date       : 27/01/2024
+------>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Team</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./content/app.css">
+</head>
+
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <!-- Harmony Hub Logo -->
+                <img src="../images/hub_logo.png" alt="Harmony Hub Logo" style="height: 40px; margin-right: 10px;">
+                Harmony Hub
+            </a>
+            <!-- Navbar Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html"> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="team.html"> Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"> Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Content Container -->
+<div class="container">
+    <h1 class="mb-5">
+        All About Us
+    </h1>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card team-member" data-toggle="modal" data-target="#memberModal1">
+                <!-- Member Image -->
+                <img src="../images/img10.jpg" class="card-img-top" alt="Member 1">
+                <div class="card-body">
+                    <h3 class="card-title">Jose Kurian</h3>
+                    <p class="card-text">Lead Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card team-member" data-toggle="modal" data-target="#memberModal2">
+                <!-- Member Image -->
+                <img src="../images/img9.jpg" class="card-img-top" alt="Member 2">
+                <div class="card-body">
+                    <h3 class="card-title">Lohit Binu Philip</h3>
+                    <p class="card-text">User Experience (UX) Designer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ... more team members ... -->
+    </div>
+</div>
+
+<!-- Member Modals -->
+<!-- Member Modal 1 -->
+<div class="modal fade" id="memberModal1" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel1" aria-hidden="true">
+    <!-- Modal Content -->
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="memberModalLabel1">Jose Kurian</h5>
+                <!-- Close Button -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Member Image -->
+                <img src="../images/img10.jpg" alt="Member 1" class="img-fluid1">
+                <!-- Member Description -->
+                <p>Oversee the overall technical architecture and design of the web application.
+                    Collaborate with team members to ensure the efficient implementation of features and functionality.
+                    Conduct regular code reviews to maintain code quality and adherence to best practices.
+                    Troubleshoot and resolve technical issues in a timely manner.
+                    Stay updated on the latest web development trends and technologies to make informed decisions.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Member Modal 2 -->
+<div class="modal fade" id="memberModal2" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="memberModalLabel2">Lohit Binu Philip</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="../images/img9.jpg" alt="Member 2" class="img-fluid1">
+                <p>Design and create user-friendly and visually appealing interfaces for the web application.
+                    Conduct user research to understand the needs and preferences of the target audience.
+                    Collaborate with the development team to ensure seamless integration of design elements.
+                    Create wireframes, mockups, and prototypes to visualize and test design concepts.
+                    Gather feedback from users and stakeholders to iterate and improve the user interface.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript Source -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./scripts/team.js"></script>
+<script src="./scripts/career.js"></script>
+
+</body>
+
+<!-- Footer Section -->
+<footer>
+
+    <div class="footerBottom">
+        <div class="footerNav">
+            <!-- Footer Navigation Links -->
+            <ul>
+                <li><a href="policy.html">Privacy Policy</a> </li>
+                <li><a href="terms.html">Terms And Conditions</a> </li>
+                <li><a href="contact.html">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="footerBottom">
+            <!-- Copyright Information -->
+            <p>CopyRight &copy;2024; Designed by <span class="designer">Jose & Lohit</span></p>
+        </div>
+    </div>
+
+</footer>
+</html>
