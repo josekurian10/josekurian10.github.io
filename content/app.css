@@ -353,83 +353,71 @@ body{
     }
 }
 
-@media (max-width: 767px) {
 
-    /* Adjust the font size for better readability on smaller screens */
+
+/* Media query for screens with a maximum width of 767px (typical for mobile devices) */
+@media (max-width: 767px) {
+    /* Adjust font size for better readability on smaller screens */
     body, html {
         font-size: 14px;
     }
 
-    /* Reduce the top padding for better mobile layout */
-    .wrapper {
-        padding-top: 10px;
-    }
-
-    /* Center-align text within the collapsible elements */
-    .collapsible label {
-        text-align: center;
-    }
-
-    /* Increase the spacing between elements in the footer */
-    .footerBottom ul li a {
-        margin: 10px;
-    }
-
-    /* Increase the padding within the blog boxes */
-    .blog-box {
-        padding: 20px;
-    }
-
-    /* Reduce font sizes for better readability on mobile */
-    .blog-heading h3 {
-        font-size: 1.8rem;
-    }
-
-    .blog-text .blog-title {
-        font-size: 1.1rem;
-    }
-
-    .blog-text p {
-        font-size: 0.8rem;
-    }
-
-    /* Adjust the padding within the blog text */
-    .blog-text span, .blog-text p {
-        padding: 10px;
-    }
-    /* Reduce the footer padding for better mobile layout */
-    footer {
-        padding: 20px;
-    }
-
-    /* Center-align text within the footer */
-    .footerBottom ul {
-        flex-direction: column;
+    /* Center-align the logo and reduce its size */
+    .navbar-brand {
+        display: flex;
         align-items: center;
+        font-size: 1.5rem;
     }
 
-    /* Adjust spacing between footer links */
-    .footerBottom ul li a {
-        margin: 10px 0;
-    }
-
-    /* Reduce font size for footer links */
-    .footerBottom ul li a {
+    /* Reduce padding for the navbar links */
+    .navbar-nav .nav-link {
+        padding: 5px 10px;
         font-size: 1rem;
     }
 
-    /* Increase opacity for better visibility */
-    .footerBottom ul li a {
-        opacity: 1;
+    /* Center-align the form elements and reduce their size */
+    form {
+        text-align: center;
     }
 
-    /* Reduce font size for the designer text */
+    .form-label,
+    .form-control,
+    textarea {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* Reduce padding for form elements */
+    .mb-3 {
+        margin-bottom: 10px;
+    }
+
+    /* Center-align additional contact information */
+    .mt-5 {
+        text-align: center;
+    }
+
+    /* Adjust spacing between footer links */
+    .footerNav ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    .footerNav li {
+        margin: 0 10px;
+    }
+
+    /* Reduce the font size of the footer links */
+    .footerNav a {
+        font-size: 0.9rem;
+    }
+
+    /* Center-align the copyright information */
     .designer {
+        display: block;
+        text-align: center;
         font-size: 0.8rem;
-    }
-
-    /* Increase spacing above the footer */
-    .content {
-        margin-bottom: 30px;
+        margin-top: 10px;
     }
 }
