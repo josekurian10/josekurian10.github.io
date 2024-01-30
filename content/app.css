@@ -354,31 +354,82 @@ body{
 }
 
 @media (max-width: 767px) {
-    html {
-        flex-direction: column; 
-        align-items: center; 
-        padding-top: 20px;
+
+    /* Adjust the font size for better readability on smaller screens */
+    body, html {
+        font-size: 14px;
     }
 
-    .project-image {
-        width: 100%; 
-        height: auto; 
+    /* Reduce the top padding for better mobile layout */
+    .wrapper {
+        padding-top: 10px;
     }
 
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .project-image {
-        width: 50%; 
-        height: auto; 
+    /* Center-align text within the collapsible elements */
+    .collapsible label {
+        text-align: center;
     }
 
-}
-
-@media (min-width: 1024px) {
-    .project-image {
-        width: 350px; 
-        height: 200px;
+    /* Increase the spacing between elements in the footer */
+    .footerBottom ul li a {
+        margin: 10px;
     }
 
+    /* Increase the padding within the blog boxes */
+    .blog-box {
+        padding: 20px;
+    }
+
+    /* Reduce font sizes for better readability on mobile */
+    .blog-heading h3 {
+        font-size: 1.8rem;
+    }
+
+    .blog-text .blog-title {
+        font-size: 1.1rem;
+    }
+
+    .blog-text p {
+        font-size: 0.8rem;
+    }
+
+    /* Adjust the padding within the blog text */
+    .blog-text span, .blog-text p {
+        padding: 10px;
+    }
+    /* Reduce the footer padding for better mobile layout */
+    footer {
+        padding: 20px;
+    }
+
+    /* Center-align text within the footer */
+    .footerBottom ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust spacing between footer links */
+    .footerBottom ul li a {
+        margin: 10px 0;
+    }
+
+    /* Reduce font size for footer links */
+    .footerBottom ul li a {
+        font-size: 1rem;
+    }
+
+    /* Increase opacity for better visibility */
+    .footerBottom ul li a {
+        opacity: 1;
+    }
+
+    /* Reduce font size for the designer text */
+    .designer {
+        font-size: 0.8rem;
+    }
+
+    /* Increase spacing above the footer */
+    .content {
+        margin-bottom: 30px;
+    }
 }
